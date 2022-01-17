@@ -43,7 +43,7 @@ tasks:
     generates:
       - k6
     cmds:
-      - xk6 build --with github.com/szkiba/xk6-prometheus=$(pwd)
+      - xk6 build --with github.com/jdheyburn/xk6-prometheus=$(pwd)
 
   test:
     deps: [build]

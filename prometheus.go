@@ -30,7 +30,7 @@ import (
 
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/sirupsen/logrus"
-	"github.com/szkiba/xk6-prometheus/internal"
+	"github.com/jdheyburn/xk6-prometheus/internal"
 
 	"github.com/gorilla/schema"
 	"go.k6.io/k6/output"
