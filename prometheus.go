@@ -28,9 +28,9 @@ import (
 	"net/http"
 	"net/url"
 
+	"github.com/jhzhu89/xk6-prometheus/internal"
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/sirupsen/logrus"
-	"github.com/jdheyburn/xk6-prometheus/internal"
 
 	"github.com/gorilla/schema"
 	"go.k6.io/k6/output"
